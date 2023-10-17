@@ -1,0 +1,10 @@
+tuple1 = (1, 2, 3, 4, 5, 6)
+
+list1 = list(tuple1)
+print(list1)
+sum_val = sum(list1)
+print(sum_val)
+list1.insert(0, sum_val)
+print(list1)
+tuple_ans = tuple(list1)
+print('output : ', tuple_ans)
